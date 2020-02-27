@@ -5,6 +5,7 @@ Working on a tool that help in faster manipulation of pivot points and object po
 import maya.cmds as mc
 
 def ChangePivotPosition(*args):
+    
     # Get Selections
     sl = mc.ls(sl = True)
     
@@ -81,6 +82,7 @@ def Freeze(*args):
         mc.FreezeTransformations()
         
 def History(*args):
+    
     # Get Selections
     sl = mc.ls(sl = True)
     
@@ -92,7 +94,9 @@ def History(*args):
     
 
 #Define GUI for Asset Modifier/Evalator
+
 def CreateWindow():
+	
 	name = "Asset Modifier/Evaluator"
 	#if (mc.window(name, exists= True)):
 	#	mc.deleteUI(name, window = True)
@@ -118,5 +122,6 @@ def CreateWindow():
 	btnPivot = mc.button(label = "Delete History", command = History)
 
 #Create Window
+
 CreateWindow()
 '''
