@@ -1,9 +1,9 @@
 # MayaTool-For-AltControl-GameProject
-Working on a tool that help in faster manipulation of pivot points and object positioning for a massive number of Assets in Maya
+Working on a tool that help in faster manipulation of pivot points and object positioning for a massive number of assets in Maya
 
 
-Description: First version of Maya tool to automate the asset editing. This tool is mostly focused on the cleanup part just before 
-	     exporting Assets to use in Unreal Engine 4
+Description: First version of Maya tool to automate the Asset Managment. This tool is mostly focused on the cleanup part just before 
+	     exporting assets to use in Unreal Engine 4
 
 How to use: Drag and drop the python file in maya, You can also drag and drop the code snipet on maya shelf and it will create a tool
 	    icon for it
