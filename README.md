@@ -1,7 +1,7 @@
 # MayaTool-For-AltControl-GameProject
 Working on a tool that help in faster manipulation of pivot points and object positioning for a massive number of Assets in Maya
 
-'''python
+'''
 import maya.cmds as mc
 
 def ChangePivotPosition(*args):
