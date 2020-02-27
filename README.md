@@ -5,7 +5,8 @@ Working on a tool that help in faster manipulation of pivot points and object po
 Description: First version of Maya tool to automate the asset editing. This tool is mostly focused on the cleanup part just before 
 	     exporting Assets to use in Unreal Engine 4
 
-How to use: Drag and drop the code in maya shelf and it will create a python tool
+How to use: Drag and drop the python file in maya, You can also drag and drop the code snipet on maya shelf and it will create a tool
+	    icon for it
 
 	import maya.cmds as mc
 
